@@ -1,10 +1,10 @@
-package example.examplemod.block
+package sofon.ktalc.block
 
-import example.examplemod.ExampleMod
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.block.state.BlockBehaviour
 import net.minecraftforge.registries.DeferredRegister
 import net.minecraftforge.registries.ForgeRegistries
+import sofon.ktalc.ExampleMod
 import thedarkcolour.kotlinforforge.forge.registerObject
 
 object ModBlocks {

@@ -1,6 +1,5 @@
-package example.examplemod
+package sofon.ktalc
 
-import example.examplemod.block.ModBlocks
 import net.minecraft.client.Minecraft
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent
@@ -8,6 +7,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent
 import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
+import sofon.ktalc.block.ModBlocks
 import thedarkcolour.kotlinforforge.forge.MOD_BUS
 import thedarkcolour.kotlinforforge.forge.runForDist
 
@@ -20,7 +20,7 @@ import thedarkcolour.kotlinforforge.forge.runForDist
  */
 @Mod(ExampleMod.ID)
 object ExampleMod {
-    const val ID = "examplemod"
+    const val ID = "ktalc"
 
     // the logger for our mod
     val LOGGER: Logger = LogManager.getLogger(ID)
